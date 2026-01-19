@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Navaneethkumar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Navaneethkumar">Navaneethkumar</h1>
+
+          <p class="title">Solution Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">mail2navaneeth99@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 8098727895</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 2, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bengaluru, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a dedicated Solution Engineer at Siemens Ltd, I specialize in delivering innovative solutions tailored to meet the unique needs of our clients.
+With a strong background in SCADA graphics design and development, I also possess expertise in IoT, digital twins,
+and Building Management Systems (BMS) & Energy Systems (EMS). My educational background complements my hands-on,
+enabling me to bridge the gap between technical knowledge and practical application.
+I am passionate about leveraging technology to drive efficiency create value in engineering projects.
+          </p>
+
+          <p>
+            My role is to build technical systems that are highly functional and robust, yet intuitive and user-friendly.
+By blending mechanical design in Fusion 360 with advanced SCADA interfaces like WinCC and Desigo CC,
+I add a personal touch that ensures complex data is both eye-catching and easy to navigate.
+My aim is to translate your operational goals into creative, high-performance automation solutions.
+Having developed sophisticated interfaces for industry-leading systems, I ensure your identity is reflected in a product that is as reliable as it is innovative.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SCADA Graphics Design</h4>
+
+                <p class="service-item-text">
+                  I design modern, high-quality interfaces for WinCC and Desigo CC that make complex industrial data easy to visualize and manage at a professional level..
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SCADA Development</h4>
+
+                <p class="service-item-text">
+                  I develop robust supervisory systems, using SQL and scripting to ensure high-quality monitoring and reliable data performance for industrial plants.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation & Robotics</h4>
+
+                <p class="service-item-text">
+                  I build professional automation solutions by combining ROS2, RPA, and microcontrollers to create smart, functional, and efficient robotic systems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Twin</h4>
+
+                <p class="service-item-text">
+                  Using Fusion 360, I create high-quality 3D digital twins that allow you to simulate and optimize your mechanical designs in a professional virtual environment.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Santosh" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Santosh</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I hired him to develop our SCADA Graphics and WinCC system.
+                     The interface is modern, high-quality, and makes our industrial monitoring much more efficient."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Manikandan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Manikandan</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "We worked together on a ROS2 and Robotics project.
+                     His professional approach to complex automation and problem-solving is truly top-tier."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Manasa" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Manasa</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "He created a detailed Digital Twin in Fusion 360 for our production line. The work was professional,
+                     accurate, and helped us optimize our entire workflow."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Satheesh" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Satheesh</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "His expertise in Microcontroller programming and RPA helped us automate our manual processes seamlessly.
+                     We were very pleased with the professional results."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Santosh" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Santosh</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  "I hired him to develop our SCADA Graphics and WinCC system. The interface is modern, high-quality,
+                   and makes our industrial monitoring much more efficient."
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-01.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-02.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-03.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-04.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-05.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-06.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-07.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-08.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-09.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-10.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-11.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-12.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Client-13.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Karunya Institute of Technology and Sciences,Coimbatore</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                Bachelor of Technology (Robotics And Automation)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NPA Centionery polytechnic college, Kotagiri</h4>
+
+              <span>2014 — 2017</span>
+
+              <p class="timeline-text">
+                Diploma in Mechanical Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Higher Secondary School,Sholur</h4>
+
+              <span>2014</span>
+
+              <p class="timeline-text">
+                Secondary Education
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Solution Engineer at Siemens Ltd</h4>
+
+              <span>2025 — Present</span>
+
+              <p class="timeline-text">
+                Programm Development For a plc Controller Commissioning and Graphics Development in Scada. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Application Engineer Intern(R&D) at Effica Automation</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                Hands-on experience and honed my skills in Ros, Robot Process Automation (RPA) and Fusion 360 in R&D.​
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">QA Engineer</h4>
+
+              <span>2017 — 2022</span>
+
+              <p class="timeline-text">
+              ​Total Quality control,
+              Non destructive testing,
+              Promoting Safety.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Hardware Configuration & PLC programming</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Industrial Networking & Communication</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Industrial Cybersecurity & IIoT & Data Integration</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Robotics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Automation</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>microcontrollers</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Robotics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Automation</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>microcontrollers</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Project-01.webp" alt="ACE-The Robot Dog" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ACE-The Robot Dog</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Project-02.jpeg" alt="Quadruped Bot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Quadruped Bot</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Project-03.jpeg" alt="Drone" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Drone</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Project-04.webp" alt="Sit to stand robot for elder people" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">​Sit to stand robot for elder people</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="automation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Project-05.jpeg" alt="NPK Sensor" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NPK Sensor</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="microcontrollers">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Project-06.jpeg" alt="Ph Sensor" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ph Sensor</h3>
+
+                <p class="project-category">microcontrollers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="microcontrollers">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Project-07.jpeg" alt="temprature and humidity Sensor" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">temprature and humidity Sensor</h3>
+
+                <p class="project-category">microcontrollers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="automation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Project-08.jpeg" alt="Csv Contacts to Salesforce" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Csv Contacts to Salesforce</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="automation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Project-09.jpeg" alt="Cobot Automation with ROS2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cobot Automation with ROS2</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Blog-01.webp" alt="Qiskit Fall 2024 Hackathon" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">QC</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Oct 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Qiskit Fall 2024 Hackathon</h3>
+
+                  <p class="blog-text">
+                    Helde in VIT Chennai Participated in 24hr Hackathon
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Blog-02.jpeg" alt="Self driving car with ROS2" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">robotics NEWS</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Self driving car with ROS2</h3>
+
+                  <p class="blog-text">
+                    Artificial Intelligence (AI) is the core technology enabling autonomous vehicles (AVs) to perceive, decide, and act without human input.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Blog-03.jpg" alt="How ROS2 Is Revolutionizing Industrial Robotics and Artificial Intelligence" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">robotics NEWS</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">How ROS2 Is Revolutionizing Industrial Robotics and Artificial Intelligence</h3>
+
+                  <p class="blog-text">
+                   ROS2 (Robot Operating System 2) is transforming the landscape of industrial robotics and artificial intelligence (AI).
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Blog-04.png" alt="future trends in autonomous cars" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">robotics NEWS</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Sep 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">future trends in autonomous cars</h3>
+
+                  <p class="blog-text">
+                    Future trends in autonomous cars focus on advanced AI, enhanced connectivity (V2X), sensor fusion, and integration with smart cities.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Blog-05.png" alt="Industrial Cybersecurity" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Cybersecurity</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Oct 01, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Industrial Cybersecurity</h3>
+
+                  <p class="blog-text">
+                    IIoT (Industrial Internet of Things) cybersecurity protects internet-connected industrial systems (sensors, machines) from cyber threats
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="C:\Users\HP\vcard-personal-portfolio\assets\images\Blog-06.png" alt="Quantum Computing: A Game-Changer for Robotics and Automation" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">QC</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Aprl 23, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Quantum Computing: A Game-Changer for Robotics and Automation</h3>
+
+                  <p class="blog-text">
+                    Quantum computing, a revolutionary technology that leverages the principles of quantum mechanics, is poised to transform various industries, including robotics and automation
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src=""https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Bengaluru,Karnataka""
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
